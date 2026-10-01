@@ -69,7 +69,9 @@ Hệ thống được thiết kế theo kiến trúc Microservice đa tầng (Zo
 | - Cloud Storage (CV/Avatar files)   |   | - Flask AI Engine            |
 +-------------------------------------+   | - Groq Cloud API (LLM)     |
                                           +-----------------------------+
-🛠 Công Nghệ Sử Dụng
+---
+
+#** 🛠 Công Nghệ Sử Dụng**
 - Frontend: HTML5, CSS3, JavaScript (Vanilla JS - No Framework).
 
 - Backend Core: Node.js, Express.js, JWT, bcrypt.
@@ -80,7 +82,7 @@ Hệ thống được thiết kế theo kiến trúc Microservice đa tầng (Zo
 
 - Version Control & CI/CD: Git, GitHub / GitLab, Hosting Free Tier.
 
-JobLink-AI-Recruitment-Platform/
+# JobLink-AI-Recruitment-Platform/
 ├── core-server/             # Node.js Express Backend (Zone 2)
 │   ├── config/              # Cấu hình Database & Environment
 │   ├── controllers/         # Logic điều hướng API
@@ -106,14 +108,15 @@ JobLink-AI-Recruitment-Platform/
 ├── LICENSE
 └── README.md
 
-⚡ Hướng Dẫn Cài Đặt & Chạy Cục Bộ
+---
+# ⚡ Hướng Dẫn Cài Đặt & Chạy Cục Bộ
 1. Yêu Cầu Tiền Đề
 Node.js: v18.x trở lên
 
 Python: v3.9 trở lên
 
 Git
-2. Cài Đặt Core Server (Node.js)
+# 2. Cài Đặt Core Server (Node.js)
 Bash
 cd core-server
 npm install
